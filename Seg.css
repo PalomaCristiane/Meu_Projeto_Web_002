@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Principal';
+    src: url(fontes/Merriweather-BlackItalic.ttf) format(opentype);
+}
+body {
+    font-family: Arial, sans-serif;
+    background: url(imag/imag02.jpg)  center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+nav {
+    background-color: rgba(255, 255, 255, 0.712);
+    padding: 10px;
+    text-align: left;
+}
+nav a {
+    margin: 0 5px;
+    text-decoration: none;
+    color:#333;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav a:hover {
+    background-color: #807d7d;
+}
+.container {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: rgba(255, 255, 255, 0.712);
+    width: 320px;
+    height: 900px;
+    padding-top: 20px;
+}
+.container .conteudo {
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    font-family: 'Principal';
+    padding:10px;
+}
+p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-indent: 20px;
+}
